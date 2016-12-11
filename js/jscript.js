@@ -55,7 +55,7 @@ for (var i=0 ; i<11　; i++) {
     count++;
   }
 }
-console.log(count);     //输出赢法种数
+console.log("赢法种数："+count);     //输出赢法种数
 
 var myWin = [];         //统计我方赢数
 var cpuWin = [];        //统计电脑赢数
