@@ -71,7 +71,7 @@ var context = chess.getContext("2d");
 context.strokeStyle = "#BFBFBF";
 
 var logo = new Image();
-logo.src = "images/openred.jpg";
+logo.src = "images/bg.jpg";
 logo.onload = function() {
   context.drawImage(logo,0,0,450,450);
   drawChessBoard();
